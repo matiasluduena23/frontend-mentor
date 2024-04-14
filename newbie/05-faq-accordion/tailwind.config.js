@@ -4,17 +4,17 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                young: 'Young Serif',
-                outfit: 'Outfit',
+                work: 'Work Sans',
             },
             colors: {
-                clRoseWhite: '#fff5fa',
-                clEggshell: '#f3e6d8',
-                clLightGrey: '#e4ded8',
-                clWenge: '#5f574e',
-                clDark: '#302d2c',
-                clNutmag: '#854632',
-                clRasberry: '#7b284f',
+                clPink: '#f9f0ff',
+                clpurple: '#8c6991',
+                clDarkPurple: '#2f1533',
+            },
+            backgroundImage: {
+                bgMobileImage: "url('../assets/background-pattern-mobile.svg')",
+                bgDesktopImage:
+                    "url('../assets/background-pattern-desktop.svg')",
             },
         },
     },
