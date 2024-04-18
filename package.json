@@ -1,18 +1,18 @@
 {
-    "name": "frontendmentor",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "workspaces": [
-        "newbie/*"
-    ],
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "@s-ui/mono": "^2.45.0"
-    }
+	"name": "frontendmentor",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"workspaces": [
+		"newbie/*"
+	],
+	"scripts": {
+		"tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@s-ui/mono": "^2.45.0"
+	}
 }
