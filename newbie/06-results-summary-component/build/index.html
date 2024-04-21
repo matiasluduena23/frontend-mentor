@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+
+</head>
+
+<body class="font-hanken text-[18px] md:grid md:content-center md:min-h-screen">
+  <div class="container mx-auto">
+
+
+    <div class="flex flex-col sm:shadow-xl sm:shadow-blue-100 sm:rounded-3xl max-w-md mx-auto md:flex-row md:max-w-2xl">
+      <div
+        class="text-center S p-8 flex flex-col item-center justify-center gap-6  bg-gradient-to-b from-clGradientBlue  to-clGradientBlueDark rounded-b-3xl md:rounded-3xl  md:w-[50%]">
+        <h1 class="text-base text-cllavender font-semibold mx-auto">Your Result</h1>
+        <div
+          class="rounded-full bg-green-200 w-[150px] h-[150px] flex flex-col items-center justify-center gap-2 mx-auto bg-gradient-to-b from-clGradientViolet  to-clGradientBlueDark to-60%">
+          <span class="text-white text-5xl font-bold">76</span>
+          <span class="text-sm text-cllavender ">of 100</span>
+        </div>
+        <div class="">
+          <p class="text-white font-semibold text-xl">Great</p>
+          <p class="text-sm max-w-[250px] mx-auto mt-2 text-cllavender font-semibold"> You scored higher than 65% of the
+            people who have
+            taken these
+            tests.
+          </p>
+        </div>
+      </div>
+      <div class="p-4   md:w-[50%] ">
+
+        <h2 class="text-clGrayBlue font-bold mb-4">Summary</h2>
+        <div class="flex flex-col gap-4 ">
+          <div class="flex items-center justify-between bg-red-50 rounded-xl p-4 font-semibold ">
+            <div class="flex items-center gap-2">
+              <img src="./assets/icon-reaction.svg" alt="icon reaction">
+              <p class="text-clRed text-base ">Reaction</p>
+            </div>
+            <p class="text-clGrayBlue ">80 <span class="text-clGrayBlue opacity-50 ">/ 100</span></p>
+          </div>
+          <div class="flex items-center justify-between bg-orange-50 rounded-xl p-4 font-semibold ">
+            <div class="flex items-center gap-2">
+              <img src="./assets/icon-memory.svg" alt="icon reaction">
+              <p class="text-clOrange text-base ">Memory</p>
+            </div>
+            <p class="text-clGrayBlue ">92 <span class="text-clGrayBlue opacity-50 ">/ 100</span></p>
+          </div>
+          <div class="flex items-center justify-between bg-green-50 rounded-xl p-4 font-semibold ">
+            <div class="flex items-center gap-2">
+              <img src="./assets/icon-verbal.svg" alt="icon reaction">
+              <p class="text-clGreen text-base ">Verbal</p>
+            </div>
+            <p class="text-clGrayBlue ">61 <span class="text-clGrayBlue opacity-50 ">/ 100</span></p>
+          </div>
+          <div class="flex items-center justify-between bg-blue-50 rounded-xl p-4 font-semibold ">
+            <div class="flex items-center gap-2">
+              <img src="./assets/icon-visual.svg" alt="icon reaction">
+              <p class="text-clBlue text-base ">Visual</p>
+            </div>
+            <p class="text-clGrayBlue ">72 <span class="text-clGrayBlue opacity-50 ">/ 100</span></p>
+          </div>
+          <button
+            class="rounded-3xl text-clPaleBlue bg-clGrayBlue w-full py-3 hover:bg-gradient-to-b  hover:from-clGradientBlue   hover:to-clGradientBlueDark   ">Continue</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
