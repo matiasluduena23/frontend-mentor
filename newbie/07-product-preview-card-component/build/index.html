@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+
+<body class="font-montserrat grid content-center min-h-screen text-sm bg-clCream ">
+  <div class="container mx-auto max-w-[90%] ">
+    <article class="flex flex-col rounded-xl bg-white max-w-[430px] md:max-w-[650px] mx-auto md:flex-row">
+
+      <div class="md:w-[50%]">
+        <picture>
+          <source srcset="./assets/image-product-desktop.jpg" media="(min-width: 768px) " />
+          <img class="rounded-t-xl md:rounded-tr-none md:rounded-l-xl  object-cover"
+            src="./assets/image-product-mobile.jpg" alt="MDN" />
+        </picture>
+      </div>
+
+      <div class="p-6 md:w-[50%]  md:p-8">
+        <span class=" block tracking-[2px] uppercase text-clDarkGrey mb-1 md:my-3  ">Perfume</span>
+        <h1 class="text-clDarkBlue font-fraunces text-3xl font-bold md:text-4xl ">Gabrielle Essence Eau De Parfum</h1>
+        <p class="text-clDarkGrey my-4 md:text-base  md:my-6">A floral, solar and voluptuous interpretation composed by
+          Olivier
+          Polge,
+          Perfumer-Creator for the House of CHANEL.</p>
+        <div class="flex items-center gap-4 mb-4 md:mb-8">
+          <span class="text-clCyan font-bold  font-fraunces text-3xl">$149.99</span><span
+            class="text-clDarkGrey line-through">$169.99</span>
+        </div>
+        <button
+          class="flex items-center justify-center gap-2 font-semibold bg-clCyan text-white w-full rounded-md py-3 hover:bg-green-950">
+          <img src="./assets/icon-cart.svg" alt="">
+          <span> Add to Cart</span>
+        </button>
+
+      </div>
+    </article>
+  </div>
+
+</body>
+
+</html>

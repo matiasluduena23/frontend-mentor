@@ -1,22 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ['./build/*.html'],
-    theme: {
-        extend: {
-            fontFamily: {
-                young: 'Young Serif',
-                outfit: 'Outfit',
-            },
-            colors: {
-                clRoseWhite: '#fff5fa',
-                clEggshell: '#f3e6d8',
-                clLightGrey: '#e4ded8',
-                clWenge: '#5f574e',
-                clDark: '#302d2c',
-                clNutmag: '#854632',
-                clRasberry: '#7b284f',
-            },
-        },
-    },
-    plugins: [],
+	content: ['./build/*.html'],
+	theme: {
+		extend: {
+			fontFamily: {
+				montserrat: 'Montserrat',
+				fraunces: 'Fraunces',
+			},
+			colors: {
+				clCyan: 'hsl(158, 36%, 37%)',
+				clCream: 'hsl(30, 38%, 92%)',
+				clDarkBlue: 'hsl(212, 21%, 14%)',
+				clDarkGrey: 'hsl(228, 12%, 48%)',
+			},
+		},
+	},
+	plugins: [],
 };
