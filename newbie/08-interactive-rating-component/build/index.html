@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+
+</head>
+
+<body class="bg-black grid content-center min-h-screen">
+
+  <!-- Rating state start -->
+  <div class="container mx-auto">
+    <article id="form-rank"
+      class="bg-gradient-to-b from-clBlue to-clDark flex flex-col  gap-4 max-w-[330px] mx-auto p-6 rounded-xl sm:max-w-[400px]">
+      <div class=" rounded-full bg-clBlue w-10 h-10 flex items-center justify-center">
+        <img class="w-4 h-4 " src="./assets/icon-star.svg" alt="">
+      </div>
+      <h1 class="text-white font-semibold text-2xl">How did we do?</h1>
+      <p class="text-clMediumGrey"> Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+      <form class="my-2 ">
+        <div class="flex justify-between gap-4 mx-2">
+          <div class="relative text-clLightGrey  w-[40px] h-[40px] has-[:checked]:text-white hover:text-white">
+            <input
+              class="w-10 h-10 text-clBlue bg-clBlue rounded-full checked:bg-clLightGrey hover:bg-clOrange  cursor-pointer"
+              type="radio" name="rank" value="1" id="1">
+            <label for="1"
+              class=" font-semibold absolute  left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] cursor-pointer ">1</label>
+          </div>
+          <div class="relative text-clLightGrey has-[:checked]:text-white    w-[40px] h-[40px] hover:text-white">
+            <input
+              class="w-10 h-10 text-clBlue bg-clBlue rounded-full checked:bg-clLightGrey cursor-pointer hover:bg-clOrange"
+              type="radio" name="rank" value="2" id="2">
+            <label for="2"
+              class=" font-semibold absolute  left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] cursor-pointer">2</label>
+          </div>
+          <div class="relative  w-[40px] h-[40px] text-clLightGrey has-[:checked]:text-white hover:text-white">
+            <input
+              class="w-10 h-10 text-clBlue bg-clBlue rounded-full checked:bg-clLightGrey hover:bg-clOrange  cursor-pointer"
+              type="radio" name="rank" value="3" id="3">
+            <label for="3"
+              class=" font-semibold absolute  left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] cursor-pointer">3</label>
+          </div>
+          <div class="relative  w-[40px] h-[40px] text-clLightGrey has-[:checked]:text-white hover:text-white">
+            <input
+              class="w-10 h-10 text-clBlue bg-clBlue rounded-full checked:bg-clLightGrey hover:bg-clOrange  cursor-pointer "
+              type="radio" name="rank" value="4" id="4">
+            <label for="4"
+              class=" font-semibold absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] cursor-pointer">4</label>
+          </div>
+          <div class="relative  w-[40px] h-[40px] text-clLightGrey has-[:checked]:text-white hover:text-white">
+            <input
+              class="w-10 h-10 text-clBlue bg-clBlue rounded-full checked:bg-clLightGrey hover:bg-clOrange  cursor-pointer"
+              type="radio" name="rank" value="5" id="5">
+            <label for="5"
+              class=" font-semibold absolute  left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] cursor-pointer">5</label>
+          </div>
+        </div>
+
+        <input
+          class="bg-clOrange text-white hover:bg-white hover:text-clOrange w-full rounded-3xl py-2 uppercase tracking-widest mt-4 mb-2 cursor-pointer"
+          type="submit" value="submit" id="submit">
+      </form>
+    </article>
+
+    <article id="thank-you"
+      class="hidden bg-gradient-to-b from-clBlue to-clDark flex-col  gap-4 max-w-[330px] mx-auto px-4 py-8 rounded-xl items-center sm:max-w-[400px]">
+      <img class="w-[150px] " src="./assets/illustration-thank-you.svg" alt="card and cellphone">
+      <p class="bg-clBlue rounded-2xl w-fit px-3 py-1 text-clOrange">You selected <span id="ranking-number"></span> out
+        of 5
+      </p>
+      <h2 class="text-white font-semibold text-2xl">Thank you!</h2>
+      <p class="text-clMediumGrey text-center mb-2">We appreciate you taking the time to give a rating. If you ever need
+        more
+        support,
+        don’t hesitate to get in touch!</p>
+    </article>
+  </div>
+
+
+
+
+
+
+
+  <script refer src="./js/main.js"></script>
+</body>
+
+</html>
