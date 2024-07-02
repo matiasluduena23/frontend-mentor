@@ -2,7 +2,7 @@
 
 ### Link
 
--   You can check the small projects [here](https://bucolic-bombolone-5ebfce.netlify.app/)
+-   You can check the projects [here](https://bucolic-bombolone-5ebfce.netlify.app/)
 
 ### Built with
 
